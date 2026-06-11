@@ -22,10 +22,10 @@ const contactMethods = [
   {
     Icon: Mail,
     label: 'Email Us',
-    value: 'wall2wall@gmail.com',
+    value: 'wall2wallclientcare@gmail.com',
     desc: 'Send us an email for quotes, questions, or anything else. We respond promptly.',
     btnLabel: 'Send Email',
-    href: 'mailto:wall2wall@gmail.com',
+    href: 'mailto:wall2wallclientcare@gmail.com',
   },
 ]
 

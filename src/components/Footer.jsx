@@ -62,7 +62,7 @@ export default function Footer() {
               <MessageSquare size={13} style={{ marginRight: 6, verticalAlign: 'middle' }} />
               330-388-8485<br />
               <Mail size={13} style={{ marginRight: 6, verticalAlign: 'middle' }} />
-              wall2wall@gmail.com
+              wall2wallclientcare@gmail.com
             </p>
           </div>
         </div>
