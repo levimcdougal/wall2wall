@@ -1,0 +1,69 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Metallic amber gold — right W, tagline, icons */
+  --blue: #c49028;
+  --blue-dark: #9a7018;
+  --blue-hover: #d4a030;
+  --blue-light: rgba(196, 144, 40, 0.14);
+  --blue-mid: #ceA030;
+
+  /* Steel blue-gray — left W metallic */
+  --steel: #6d8faa;
+  --steel-dark: #4d6f8a;
+  --steel-light: rgba(109, 143, 170, 0.14);
+
+  --white: #ffffff;
+  --cream: #10141c;
+  --gray-light: #080b10;
+  --gray: #9ca3af;
+  --text: #ffffff;
+  --text-light: rgba(255, 255, 255, 0.6);
+  --shadow: 0 4px 20px rgba(196, 144, 40, 0.1);
+  --shadow-hover: 0 10px 36px rgba(196, 144, 40, 0.2);
+  --radius: 14px;
+}
+
+body {
+  font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background: var(--cream);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+}
+
+h1, h2 {
+  font-family: 'Alfa Slab One', Georgia, serif;
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--text);
+}
+
+h3 {
+  font-family: 'Roboto', system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text);
+}
