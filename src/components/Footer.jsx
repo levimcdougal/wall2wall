@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Phone, MessageSquare, Mail } from 'lucide-react'
 import logoImg from '../assets/logo.png'
+import bbbImg from '../assets/BBB.png'
 
 function FacebookIcon({ size = 16 }) {
   return (
@@ -26,8 +27,19 @@ export default function Footer() {
       <div className="footer-inner">
         <div className="footer-top">
           <div>
-            <div className="footer-brand">
-              <img src={logoImg} alt="Wall2Wall Remodeling" />
+            <div className="footer-brand-row">
+              <div className="footer-brand">
+                <img src={logoImg} alt="Wall2Wall Remodeling" />
+              </div>
+              <a
+                href="https://www.bbb.org/us/oh/hartville/profile/home-renovation/wall2wall-remodeling-llc-0282-92034556"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Wall2Wall Remodeling BBB Accredited Business Profile"
+                className="footer-bbb"
+              >
+                <img src={bbbImg} alt="BBB Accredited Business" />
+              </a>
             </div>
             <p className="footer-tagline">
               Raising the standard of quality, professionalism, and integrity — one renovation at a time.

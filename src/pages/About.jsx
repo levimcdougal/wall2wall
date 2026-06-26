@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { Award, Shield, MessageCircle, Eye } from 'lucide-react'
 import FadeIn from '../components/FadeIn'
 import aboutImg from '../assets/about.jpg'
+import bbbImg from '../assets/BBB.png'
 
 const values = [
   {
@@ -61,6 +62,16 @@ export default function About() {
                   sets a higher standard for the industry as a whole.
                 </p>
                 <Link to="/contact" className="btn-primary why-cta">Get Your Free Quote</Link>
+
+                <a
+                  href="https://www.bbb.org/us/oh/hartville/profile/home-renovation/wall2wall-remodeling-llc-0282-92034556"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="about-bbb-badge"
+                >
+                  <img src={bbbImg} alt="BBB Accredited Business" />
+                  <p>Wall2Wall Remodeling is a proud BBB Accredited Business — committed to honesty, integrity, and trust in everything we build.</p>
+                </a>
               </div>
             </div>
           </FadeIn>
