@@ -70,7 +70,7 @@ export default function About() {
                   className="about-bbb-badge"
                 >
                   <img src={bbbImg} alt="BBB Accredited Business" />
-                  <p>Wall2Wall Remodeling is a proud BBB Accredited Business — committed to honesty, integrity, and trust in everything we build.</p>
+                  <p>Wall2Wall Remodeling is a proud BBB Accredited Business — committed to honesty, integrity, and trust in everything we build. <strong>Click to view our profile →</strong></p>
                 </a>
               </div>
             </div>
