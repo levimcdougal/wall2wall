@@ -13,8 +13,11 @@ import img7 from '../assets/IMG7.jpg'
 import img8 from '../assets/IMG8.jpg'
 import img9 from '../assets/IMG9.jpg'
 import img10 from '../assets/IMG10.jpg'
+import img11 from '../assets/IMG11.jpg'
+import img12 from '../assets/IMG12.jpg'
+import img13 from '../assets/IMG13.jpg'
 
-const galleryImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10]
+const galleryImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13]
 
 const reviews = [
   {
