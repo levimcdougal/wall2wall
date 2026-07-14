@@ -5,17 +5,17 @@
 }
 
 :root {
-  /* Logo gold — right W glow */
-  --blue: #f6ae00;
-  --blue-dark: #b87f00;
-  --blue-hover: #ffc233;
-  --blue-light: rgba(246, 174, 0, 0.14);
-  --blue-mid: #ffc233;
+  /* Metallic amber gold — right W, tagline, icons */
+  --blue: #c49028;
+  --blue-dark: #9a7018;
+  --blue-hover: #d4a030;
+  --blue-light: rgba(196, 144, 40, 0.14);
+  --blue-mid: #ceA030;
 
-  /* Logo electric blue — left W glow */
-  --steel: #0278e9;
-  --steel-dark: #045bb0;
-  --steel-light: rgba(2, 120, 233, 0.14);
+  /* Steel blue-gray — left W metallic */
+  --steel: #6d8faa;
+  --steel-dark: #4d6f8a;
+  --steel-light: rgba(109, 143, 170, 0.14);
 
   --white: #ffffff;
   --cream: #10141c;
@@ -23,8 +23,8 @@
   --gray: #9ca3af;
   --text: #ffffff;
   --text-light: rgba(255, 255, 255, 0.6);
-  --shadow: 0 4px 20px rgba(246, 174, 0, 0.1);
-  --shadow-hover: 0 10px 36px rgba(246, 174, 0, 0.2);
+  --shadow: 0 4px 20px rgba(196, 144, 40, 0.1);
+  --shadow-hover: 0 10px 36px rgba(196, 144, 40, 0.2);
   --radius: 14px;
 }
 
