@@ -188,7 +188,7 @@ export default function HomePage() {
               <div className="review-card" key={r.name}>
                 <div className="review-stars">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} size={16} color="#f59e0b" fill="#f59e0b" strokeWidth={0} />
+                    <Star key={i} size={16} color="var(--steel-bright)" fill="var(--steel-bright)" strokeWidth={0} />
                   ))}
                 </div>
                 <p className="review-text">"{r.text}"</p>

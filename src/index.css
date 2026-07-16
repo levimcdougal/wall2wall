@@ -5,26 +5,31 @@
 }
 
 :root {
-  /* Metallic amber gold — right W, tagline, icons */
-  --blue: #c49028;
-  --blue-dark: #9a7018;
-  --blue-hover: #d4a030;
-  --blue-light: rgba(196, 144, 40, 0.14);
-  --blue-mid: #ceA030;
+  /* Color stops sampled from the two metallic faces of the logo. */
+  --blue: #1080e0;
+  --blue-dark: #213049;
+  --blue-hover: #4090e0;
+  --blue-light: rgba(64, 144, 224, 0.14);
+  --blue-mid: #86acd8;
+  --blue-gradient: linear-gradient(110deg, #cedbec 0%, #8194b0 38%, #4679b3 68%, #1080e0 100%);
 
-  /* Steel blue-gray — left W metallic */
-  --steel: #6d8faa;
-  --steel-dark: #4d6f8a;
-  --steel-light: rgba(109, 143, 170, 0.14);
+  --steel: #ddad67;
+  --steel-mid: #cd8b36;
+  --steel-bright: #f8e3b2;
+  --steel-blue: #a86f2b;
+  --steel-dark: #784f23;
+  --steel-light: rgba(221, 173, 103, 0.14);
+  --gold-gradient: linear-gradient(110deg, #f8e3b2 0%, #ddad67 38%, #cd8b36 68%, #784f23 100%);
+  --steel-gradient: var(--gold-gradient);
 
   --white: #ffffff;
-  --cream: #10141c;
-  --gray-light: #080b10;
+  --cream: #050505;
+  --gray-light: #0b0b0b;
   --gray: #9ca3af;
   --text: #ffffff;
   --text-light: rgba(255, 255, 255, 0.6);
-  --shadow: 0 4px 20px rgba(196, 144, 40, 0.1);
-  --shadow-hover: 0 10px 36px rgba(196, 144, 40, 0.2);
+  --shadow: 0 4px 20px rgba(16, 128, 224, 0.1);
+  --shadow-hover: 0 10px 36px rgba(16, 128, 224, 0.22);
   --radius: 14px;
 }
 
